@@ -1,24 +1,32 @@
+<!DOCTYPE html>
 <html>
     <link rel="stylesheet" type="text/css" href="styles.css">
     <head>
         <body>
             
             <div class="Title">
-                <a href=https://github.com/jasont9923 target=_blank rel="noopener noreferrer">
-                    <img src="portfoliologo.png" alt="Logo">
-                    <h1>TESTBOX1</h1>
-                    <h1>TESTBOX2</h1>
-                
-                </a>
-                
+                <!-- <a href=https://github.com/jasont9923 target=_blank rel="noopener noreferrer">
+                    
+                </a> -->
+                <img id = "Logo" src="portfoliologo2.png" alt="Logo">
 
             </div>
 
             <div class="Feed">
                 
+                <h1 id = "Fe">About Me</h1>
+
+                <h1>Resume</h1>
+                <!--Projects, Resume, Skills-->
             </div>
 
         </body>
+
+        <script>
+            let duo = document.querySelector('.Fe');
+            if (document.getElementById("Logo").addEventListener("animationend", function() {document.getElementById("Fe").style.opacity="100%"}, false));
+
+        </script>
 
     </head>
 </html>

@@ -1,26 +1,49 @@
-/*#d2fbd4,#a5dbc2,#7bbcb0,#559c9e,#3a7c89,#235d72,#123f5a*/
+/* #6B6E70, #474B4F, #222629, #86C232, #61892F */
 
 body {
-    background-color: #2b2d32;
+    background-image: url("portfoliobackground.gif");
+}
+
+@keyframes logoLoad {
+    from {width:100%}
+    to {width: 15%;}
+}
+
+@keyframes options {
+    from{padding-bottom:1%}
+    to {padding-bottom: 60%;}
+}
+
+@keyframes options-close {
+    from{padding-bottom:60%}
+    to {padding-bottom: 1%;}
 }
 
 .Title img {
-    width: 15%;
-    background-color: #474e52;
+    animation-name: logoLoad;
+    /* animation-delay: 0.25s; */
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+
+    background-color: #180e33;
     display:block;
     padding-top: 1%;
     padding-bottom: 1%;
     padding-left: 1%;
     padding-right: 1%;
     border-radius: 5%;
-
-    
 }
 
-.Title h1 {
+.Feed h1{
+    animation-name: options-close;
+    animation-duration: 1s;
     display:inline-block;
-    font-family: Helvetica;
-    background-color: #df2800;
+    font-family: 'Trebuchet MS';
+    text-align: center;
+    background-color: #f2bd5a;
+    width: 15%;
+    color: white;
+    opacity: 100%;
     padding-top: 1%;
     padding-bottom: 1%;
     padding-left: 1%;
@@ -28,10 +51,15 @@ body {
     border-radius: 1%;
 }
 
-.Title img:hover {
-    background-color: #df2800;
-}
+/* .Title img:hover {
+    background-color: #61892F;
+} */
 
-.Title h1:hover {
-    background-color: #474e52;
+.Feed h1:hover {
+    background-color: #efb03a;
+    animation-name: options;
+    /* animation-delay: 0.25s; */
+    animation-duration: 1s;
+    animation-direction: forwards;
+    animation-fill-mode: forwards;
 }
