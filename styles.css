@@ -10,13 +10,13 @@ body {
 }
 
 @keyframes options {
-    from{padding-bottom:1%}
-    to {padding-bottom: 60%;}
+    from{padding:1%}
+    to {padding: 1.5%}
 }
 
 @keyframes options-close {
-    from{padding-bottom:60%}
-    to {padding-bottom: 1%;}
+    from{padding:1.5%}
+    to {padding: 1%;}
 }
 
 .Title img {
@@ -27,16 +27,21 @@ body {
 
     background-color: #180e33;
     display:block;
-    padding-top: 1%;
-    padding-bottom: 1%;
-    padding-left: 1%;
-    padding-right: 1%;
+    padding: 1%;
     border-radius: 5%;
 }
 
-.Feed h1{
+.TitleNoAnim img {
+    width:15%;
+    background-color: #180e33;
+    display:block;
+    padding: 1%;
+    border-radius: 5%;
+}
+
+.Options h1{
     animation-name: options-close;
-    animation-duration: 1s;
+    animation-duration: 0.25s;
     display:inline-block;
     font-family: 'Trebuchet MS';
     text-align: center;
@@ -44,22 +49,27 @@ body {
     width: 15%;
     color: white;
     opacity: 100%;
-    padding-top: 1%;
-    padding-bottom: 1%;
-    padding-left: 1%;
-    padding-right: 1%;
+    padding: 1%;
     border-radius: 1%;
+}
+
+.Options #Open {
+    background-color: #efb03a;
+    animation-name: options;
+    animation-duration: 0.25s;
+    animation-direction: forwards;
+    animation-fill-mode: forwards;
 }
 
 /* .Title img:hover {
     background-color: #61892F;
 } */
 
-.Feed h1:hover {
+.Options h1:hover {
     background-color: #efb03a;
     animation-name: options;
     /* animation-delay: 0.25s; */
-    animation-duration: 1s;
+    animation-duration: 0.25s;
     animation-direction: forwards;
     animation-fill-mode: forwards;
 }
