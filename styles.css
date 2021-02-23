@@ -64,6 +64,7 @@ body {
     font-family: 'Trebuchet MS';
     text-align: center;
     white-space: nowrap;
+    text-overflow: ellipsis;
     background-color: #f2bd5a;
     width: 15%;
     color: white;
