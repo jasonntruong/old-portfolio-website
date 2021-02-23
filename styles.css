@@ -19,22 +19,38 @@ body {
     to {padding: 1%;}
 }
 
-.Title img {
+.Title #Logo {
     animation-name: logoLoad;
     /* animation-delay: 0.25s; */
     animation-duration: 3s;
     animation-fill-mode: forwards;
 
     background-color: #180e33;
-    display:block;
+    display:inline;
     padding: 1%;
     border-radius: 5%;
 }
 
-.TitleNoAnim img {
+.Title #OtherLinks {
+    display:inline;
+    margin-left: 0.5%;
+    width: 3%;
+    padding: 1%;
+    border-radius: 5%;
+}
+
+.Title #OtherLinks2 {
+    display:inline;
+    margin-left: 0.5%;
+    width: 3.7%;
+    padding: 1%;
+    border-radius: 5%;
+}
+
+.Title #LogoNoAnim {
     width:15%;
     background-color: #180e33;
-    display:block;
+    display:inline;
     padding: 1%;
     border-radius: 5%;
 }
@@ -48,17 +64,55 @@ body {
     background-color: #f2bd5a;
     width: 15%;
     color: white;
-    opacity: 100%;
     padding: 1%;
     border-radius: 1%;
 }
 
 .Options #Open {
-    background-color: #efb03a;
+    background-color: rgb(24,14,51);
     animation-name: options;
     animation-duration: 0.25s;
     animation-direction: forwards;
     animation-fill-mode: forwards;
+}
+
+.Information h1 {
+    font-family: 'Helvetica Neue';
+    color: black;
+    display: block;
+    padding: 1%;
+    padding-left: 3%;
+    font-size:350%;
+}
+
+
+.Information p {
+    background-color: #ffffff80;
+    font-family: 'Helvetica Neue';
+    font-size:150%;
+    display: block;
+    text-align: left;
+    color: black;
+    max-width: 70%;
+    padding: 1%;
+    margin-left: 3%;
+}
+
+.Information img {
+    width:30%;
+    display:inline;
+    padding: 1%;
+    border-radius: 5%;
+}
+
+.Information #Category {
+    font-size:200%;
+    font-weight:bold;
+
+}
+
+.Information #InBlack {
+    color: rgb(243,243,243);
 }
 
 /* .Title img:hover {
@@ -66,6 +120,24 @@ body {
 } */
 
 .Options h1:hover {
+    background-color: #efb03a;
+    animation-name: options;
+    /* animation-delay: 0.25s; */
+    animation-duration: 0.25s;
+    animation-direction: forwards;
+    animation-fill-mode: forwards;
+}
+
+.Title #OtherLinks:hover {
+    background-color: #efb03a;
+    animation-name: options;
+    /* animation-delay: 0.25s; */
+    animation-duration: 0.25s;
+    animation-direction: forwards;
+    animation-fill-mode: forwards;
+}
+
+.Title #OtherLinks2:hover {
     background-color: #efb03a;
     animation-name: options;
     /* animation-delay: 0.25s; */
