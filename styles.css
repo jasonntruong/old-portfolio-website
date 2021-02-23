@@ -2,6 +2,8 @@
 
 body {
     background-image: url("portfoliobackground.png");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
 }
 
 @keyframes logoLoad {
@@ -61,6 +63,7 @@ body {
     display:inline-block;
     font-family: 'Trebuchet MS';
     text-align: center;
+    white-space: nowrap;
     background-color: #f2bd5a;
     width: 15%;
     color: white;
@@ -98,7 +101,14 @@ body {
     margin-left: 3%;
 }
 
-.Information img {
+.Information #headshot {
+    width:20%;
+    float:right;
+    padding: 1%;
+    border-radius: 5%;
+}
+
+.Information #techinterview {
     width:30%;
     display:inline-block;
     padding: 1%;
@@ -113,6 +123,7 @@ body {
 
 .Information #InBlack {
     color: rgb(243,243,243);
+    background-color: #00000080;
 }
 
 /* .Title img:hover {
