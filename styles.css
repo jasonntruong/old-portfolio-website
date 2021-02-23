@@ -90,7 +90,7 @@ body {
     background-color: #ffffff80;
     font-family: 'Helvetica Neue';
     font-size:150%;
-    display: block;
+    display: inline-block;
     text-align: left;
     color: black;
     max-width: 70%;
@@ -100,7 +100,7 @@ body {
 
 .Information img {
     width:30%;
-    display:inline;
+    display:inline-block;
     padding: 1%;
     border-radius: 5%;
 }
