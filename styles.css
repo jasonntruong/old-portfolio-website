@@ -23,6 +23,10 @@ body {
     to {padding: 1%;}
 }
 
+a {
+    text-decoration: none;
+}
+
 .Title #Logo {
     animation-name: logoLoad;
     /* animation-delay: 0.25s; */
@@ -33,6 +37,7 @@ body {
     display:inline;
     padding: 1%;
     border-radius: 5%;
+    text-decoration: none;
 }
 
 .Title #OtherLinks {
@@ -63,11 +68,11 @@ body {
     animation-name: options-close;
     animation-duration: 0.25s;
     display:inline-block;
+    min-width: 15%;
     font-family: 'Trebuchet MS';
     text-align: center;
     text-overflow: ellipsis;
     background-color: #f2bd5a;
-    width: 15%;
     color: white;
     padding: 1%;
     border-radius: 1%;
@@ -96,7 +101,7 @@ body {
     font-family: 'Helvetica Neue';
     font-size:150%;
     display: inline-block;
-    text-align: justify;
+    text-align: left;
     color: black;
     max-width: 70%;
     padding: 1%;
@@ -105,6 +110,13 @@ body {
 
 .Information #headshot {
     width:20%;
+    float:right;
+    padding: 1%;
+    border-radius: 5%;
+}
+
+.Information #travel {
+    width:15%;
     float:right;
     padding: 1%;
     border-radius: 5%;
@@ -128,29 +140,19 @@ body {
     background-color: #00000080;
 }
 
+.Information #travelcaption {
+    font-family: 'Helvetica Neue';
+    color: black;
+    font-size: 120%;
+    padding-left: 84%;
+
+}
+
 /* .Title img:hover {
     background-color: #61892F;
 } */
 
-.Options h1:hover {
-    background-color: #efb03a;
-    animation-name: options;
-    /* animation-delay: 0.25s; */
-    animation-duration: 0.25s;
-    animation-direction: forwards;
-    animation-fill-mode: forwards;
-}
-
-.Title #OtherLinks:hover {
-    background-color: #efb03a;
-    animation-name: options;
-    /* animation-delay: 0.25s; */
-    animation-duration: 0.25s;
-    animation-direction: forwards;
-    animation-fill-mode: forwards;
-}
-
-.Title #OtherLinks2:hover {
+.Options h1:hover, #OtherLinks:hover, #OtherLinks2:hover {
     background-color: #efb03a;
     animation-name: options;
     /* animation-delay: 0.25s; */
