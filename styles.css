@@ -127,6 +127,14 @@ a {
     border-radius: 5%;
 }
 
+.Information #youtube, #github {
+    width:5%;
+    display:inline-block;
+    padding: 1%;
+    padding-left:3%;
+    border-radius: 5%;
+}
+
 .Information #link {
     font-family: 'Helvetica Neue';
     color: #1a5190;
