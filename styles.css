@@ -125,15 +125,8 @@ a {
     margin-left: 3%;
 }
 
-.Information #headshot {
+.Information #headshot, #travel {
     width:20%;
-    float:right;
-    padding: 1%;
-    border-radius: 5%;
-}
-
-.Information #travel {
-    width:15%;
     float:right;
     padding: 1%;
     border-radius: 5%;
