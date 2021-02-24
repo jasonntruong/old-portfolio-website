@@ -1,26 +1,11 @@
-html {
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-}
-
-.index {
-    background-image: url("portfoliobackground.png");
-}
-
-.projects {
-    background-image: url("projectsbackground.png");
-}
-
-.whosjason {
-    background-image: url("whosjasonbackground.png");
-
-}
-
 @keyframes logoLoad {
     from {width:100%}
     to {width: 15%;}
+}
+
+@keyframes fadein {
+    from {opacity: 0%}
+    to {opacity:100%}
 }
 
 @keyframes options {
@@ -33,6 +18,26 @@ html {
     to {padding: 1%;}
 }
 
+html {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+.index {
+    background-image: url("portfoliobackground.png");
+}
+
+.whosjason {
+    background-image: url("whosjasonbackground.png");
+}
+
+.projects {
+    background-image: url("projectsbackground.png");
+}
+
 a {
     text-decoration: none;
 }
@@ -41,7 +46,6 @@ a {
     animation-name: logoLoad;
     animation-duration: 2s;
     animation-fill-mode: forwards;
-
     background-color: #180e33;
     display:inline;
     padding: 1%;
@@ -91,7 +95,12 @@ a {
     background-color: rgb(24,14,51);
     animation-name: options;
     animation-duration: 0.25s;
-    animation-direction: forwards;
+    animation-fill-mode: forwards;
+}
+
+.Information {
+    animation-name: fadein;
+    animation-duration: 2.5s;
     animation-fill-mode: forwards;
 }
 
