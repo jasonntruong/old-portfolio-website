@@ -1,11 +1,21 @@
-/* #6B6E70, #474B4F, #222629, #86C232, #61892F */
-
-body {
-    background-image: url("portfoliobackground.png");
+html {
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+}
+
+.index {
+    background-image: url("portfoliobackground.png");
+}
+
+.projects {
+    background-image: url("projectsbackground.png");
+}
+
+.whosjason {
+    background-image: url("whosjasonbackground.png");
+
 }
 
 @keyframes logoLoad {
@@ -142,11 +152,6 @@ a {
     font-size: 1.2vw;
 }
 
-.Information #InBlack {
-    color: rgb(243,243,243);
-    background-color: #00000080;
-}
-
 .Information #travelcaption {
     font-family: 'Helvetica Neue';
     color: #2c87f0;
@@ -155,14 +160,9 @@ a {
 
 }
 
-/* .Title img:hover {
-    background-color: #61892F;
-} */
-
 .Options h1:hover, #OtherLinks:hover, #OtherLinks2:hover {
     background-color: #efb03a;
     animation-name: options;
-    /* animation-delay: 0.25s; */
     animation-duration: 0.25s;
     animation-direction: forwards;
     animation-fill-mode: forwards;
