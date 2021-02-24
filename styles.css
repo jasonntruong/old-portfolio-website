@@ -87,7 +87,7 @@ a {
 
 .Information h1 {
     font-family: 'Helvetica Neue';
-    color: black;
+    color: #1a5190;
     display: block;
     padding: 1%;
     padding-left: 3%;
@@ -131,7 +131,7 @@ a {
     font-family: 'Helvetica Neue';
     color: #1a5190;
     text-decoration: underline;
-    font-size: 120%;
+    font-size: 1.2vw;
 }
 
 .Information #InBlack {
