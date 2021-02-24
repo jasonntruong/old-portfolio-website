@@ -91,13 +91,13 @@ a {
     display: block;
     padding: 1%;
     padding-left: 3%;
-    font-size:350%;
+    font-size:3vw;
 }
 
 .Information p {
     background-color: #ffffff80;
     font-family: 'Helvetica Neue';
-    font-size:150%;
+    font-size:1.2vw;
     display: inline-block;
     text-align: left;
     color: black;
@@ -125,12 +125,6 @@ a {
     display:inline-block;
     padding: 1%;
     border-radius: 5%;
-}
-
-.Information #Category {
-    font-size:200%;
-    font-weight:bold;
-
 }
 
 .Information #link {
