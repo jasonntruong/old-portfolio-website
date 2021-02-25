@@ -1,2 +1,2 @@
 # PortfolioWebsite
- HTML, CSS, and JavaScript Files for my Portfolio Website
+My Portfolio Website coded in HTML and CSS
