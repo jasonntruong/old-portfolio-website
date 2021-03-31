@@ -105,7 +105,7 @@ a {
 }
 
 .Information h1 {
-    font-family: 'Helvetica Neue';
+    font-family: 'Helvetica';
     color: #1a5190;
     display: block;
     padding: 1%;
@@ -115,7 +115,7 @@ a {
 
 .Information p {
     background-color: #ffffff80;
-    font-family: 'Helvetica Neue';
+    font-family: 'Helvetica';
     font-size:1.2vw;
     display: inline-block;
     text-align: left;
@@ -148,14 +148,14 @@ a {
 }
 
 .Information #link {
-    font-family: 'Helvetica Neue';
+    font-family: 'Helvetica';
     color: #1a5190;
     text-decoration: underline;
     font-size: 1.2vw;
 }
 
 .Information #travelcaption {
-    font-family: 'Helvetica Neue';
+    font-family: 'Helvetica';
     color: #2c87f0;
     font-size: 120%;
     padding-left: 79%;
