@@ -1,123 +1,126 @@
 <!DOCTYPE html>
 <html class=projects>
-    <link rel="stylesheet" type="text/css" href="styles.css">
-    <link rel="icon" href=portfolioicon.png>
-
-    <title>Projects</title>
-
     <head>
-        <body>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <link rel="stylesheet" type="text/css" href="projectsStyles.css">
+        <link rel="icon" href=portfolioicon.png>
+        <title>Projects</title>
+    </head>
+
+    <body>
+        
+        <div class="redirectLinks">
+            <a href="http://www.jason-truong.com" rel="noopener noreferrer">
+                <img id = "LogoNoAnim" src="portfoliologo.png" alt="Logo">
+            </a>
+
+            <a href=https://linkedin.com/in/jasonn-truong target=_blank rel="noopener noreferrer">
+                <img id = "OtherLinks" src="linkedin.png" alt="LinkedIn">
+            </a>
+
+            <a href=https://github.com/jasonntruong target=_blank rel="noopener noreferrer">
+                <img id = "OtherLinks" src="github.png" alt="Github">
+            </a>
+
+            <a href=mailto:jason.truong@ryerson.ca target=_blank rel="noopener noreferrer">
+                <img id = "OtherLinks2" src="email.png" alt="Email">
+            </a>
+
+        </div>
+
+        <div class="menu">
+            <a href=whosjason>
+                <h1>Who's Jason?</h1>
+            </a>
             
-            <div class="Title">
-                <a href="http://www.jason-truong.com" rel="noopener noreferrer">
-                    <img id = "LogoNoAnim" src="portfoliologo.png" alt="Logo">
+            <a href=projects>
+                <h1 id="Open">Projects</h1>
+            </a>
+
+            <a href=Resume.pdf target=_blank rel="noopener noreferrer">
+                <h1>Resume</h1>
+            </a>
+
+        </div>
+
+
+        <div class="Information"> 
+            <div class = "cov-ID">
+                <h1>cov-ID</h1>
+                <p><a href=https://devpost.com/software/cov-id-6axy9o target=_blank rel="noopener noreferrer" id=link>Awarded Best Hardware Hack Sponsored by Digi-key at yuHacks 2021 (York University)</a></br></br>
+                    cov-ID is an NFC card and app duo. There are 2 sides to the app; the user side and service side.</br></br>
+                    The user side allows everyone with a cov-ID card to see their recent test information (test result, test date, test location) and where they have scanned their cov-ID.</br></br>
+                    The service side will be the people who scan the cov-ID, i.e restaurants scanning customer's cov-ID. With the app, they can scan and get the previously listed information from their customers or set restrictions on who's allowed in: i.e refusing those who do not take the vaccine, those that haven't been tested in x amount of days, and those who were recently tested positive but refusing to quarantine.</br></br>
+                    This ultimately makes businesses and public places more safe and also people more comfortable to go outside as they can go to businesses whose restrictions they agree with.</br></br>
+                    <strong>cov-ID was built with NFC technology, Google Cloud's Google Maps API, Java, XML, and Android Studio!</strong>
+
+                </p>
+
+                <a href=https://www.youtube.com/watch?v=0ojjfrsssGI target=_blank rel="noopener noreferrer">
+                    <img id=youtube src=youtube.png>
                 </a>
 
-                <a href=https://linkedin.com/in/jasonn-truong target=_blank rel="noopener noreferrer">
-                    <img id = "OtherLinks" src="linkedin.png" alt="LinkedIn">
+                <a href=https://github.com/jasonntruong/cov-ID-yuHacks-2021 target=_blank rel="noopener noreferrer">
+                    <img id=github src=github.png>
+                </a>
+            </div>
+            
+            <div class = "lucid">
+                <h1>Lucid</h1>
+                <p><a href=https://devpost.com/software/lucid-eyes-for-the-visually-impaired target=_blank rel="noopener noreferrer" id=link>Top 6 Finalist at qHacks 2021 (Queen's University)</a></br></br>
+                    Lucid aims to make life easier for the blind.</br></br>
+                    It's an app whose main function is to use the phone's camera and text-to-speech to tell the user what objects are in front of them (object recognition) or what the text in front of them says (text recognition). Ex: Grocery shopping, blind people can't tell if an apple is red or green!</br></br>
+                    We also have incredible UI features built in like physical/tactile feedback on button clicks, text-to-speech to describe the activity that appears on the screen, voice command startup, speech speed customization, and many other features so that Lucid is perfectly curated for users without sight.</br></br>
+                    <strong>Lucid was built with Google Cloud's Vision API, Machine Learning Kit, Java, XML, and Android Studio!</strong>
+                </p>
+
+                <a href=https://www.youtube.com/watch?v=IddtCbX6l4Y target=_blank rel="noopener noreferrer">
+                    <img id=youtube src=youtube.png>
                 </a>
 
-                <a href=https://github.com/jasonntruong target=_blank rel="noopener noreferrer">
-                    <img id = "OtherLinks" src="github.png" alt="Github">
+                <a href=https://github.com/jasonntruong/Lucid-QHacks-2021 target=_blank rel="noopener noreferrer">
+                    <img id=github src=github.png>
                 </a>
 
-                <a href=mailto:jason.truong@ryerson.ca target=_blank rel="noopener noreferrer">
-                    <img id = "OtherLinks2" src="email.png" alt="Email">
+                <h1>Scam Guardian</h1>
+                <p><a href=https://devpost.com/software/scam-guardian target=_blank rel="noopener noreferrer" id=link>Submission for RU Hacks 2021</a></br></br>
+                    Scam Guardian teaches non-proficient technology users how not to get scammed.</br></br>
+
+                    This is a webapp that when given one's name and email or phone number, it sends a pre-made and pre-selected phishing email/text. When the link in the message is clicked, rather than being scammed, they are redirected to the Scam Guardian website where they are taught how NOT to fall for phishers!</br></br>
+
+                    You can send these Scam Guardian messages to your loved ones - especially vulenrable elderly's with phones - so they can learn internet security through experience, as opposed to words. <br><br>
+
+                    <strong>Scam Guardian was built with HTML, CSS, JavaScript, Node.js, Python, Twilio API, and Elastic Email API!</strong>
+                </p>
+
+                <a href=https://www.youtube.com/watch?v=pouU7z3Me4o target=_blank rel="noopener noreferrer">
+                    <img id=youtube src=youtube.png>
                 </a>
 
+                <a href=https://github.com/jasonntruong/Scam-Guardian target=_blank rel="noopener noreferrer">
+                    <img id=github src=github.png>
+                </a>
             </div>
 
-            <div class="Options">
-                <a href=whosjason>
-                    <h1>Who's Jason?</h1>
+            <div class = "fillTheLyric">
+                <h1>Fill the Lyric</h1>
+                <p>An online game I am still building with the goal of self-teaching myself <strong>HTML, CSS, JavaScript, and Node.js</strong></br></br>
+                    In Fill the Lyric, players are given an embedded YouTube music video and a line of lyrics - but with a catch!</br></br>
+                    There is a missing word from the prompted lyrics and the player is responsible for filling it in!</br></br>
+                    Play solo or play with your friends in custom lobbys and race to "Fill the Lyric"!
+                </p>
+
+                <a href=https://github.com/jasonntruong/Fill-The-Lyric target=_blank rel="noopener noreferrer">
+                    <img id=github src=github.png>
                 </a>
                 
-                <a href=projects>
-                    <h1 id="Open">Projects</h1>
-                </a>
-
-                <a href=Resume.pdf target=_blank rel="noopener noreferrer">
-                    <h1>Resume</h1>
-                </a>
-
-            </div>
-
-
-            <div class="Information"> 
-                <a>
-                    <h1>cov-ID</h1>
-                    <p><a href=https://devpost.com/software/cov-id-6axy9o target=_blank rel="noopener noreferrer" id=link>Awarded Best Hardware Hack Sponsored by Digi-key at yuHacks 2021 (York University)</a></br></br>
-                        cov-ID is an NFC card and app duo. There are 2 sides to the app; the user side and service side.</br></br>
-                        The user side allows everyone with a cov-ID card to see their recent test information (test result, test date, test location) and where they have scanned their cov-ID.</br></br>
-                        The service side will be the people who scan the cov-ID, i.e restaurants scanning customer's cov-ID. With the app, they can scan and get the previously listed information from their customers or set restrictions on who's allowed in: i.e refusing those who do not take the vaccine, those that haven't been tested in x amount of days, and those who were recently tested positive but refusing to quarantine.</br></br>
-                        This ultimately makes businesses and public places more safe and also people more comfortable to go outside as they can go to businesses whose restrictions they agree with.</br></br>
-                        <strong>cov-ID was built with NFC technology, Google Cloud's Google Maps API, Java, XML, and Android Studio!</strong>
-
-                    </p>
-
-                    <a href=https://www.youtube.com/watch?v=0ojjfrsssGI target=_blank rel="noopener noreferrer">
-                        <img id=youtube src=youtube.png>
-                    </a>
-
-                    <a href=https://github.com/jasonntruong/cov-ID-yuHacks-2021 target=_blank rel="noopener noreferrer">
-                        <img id=github src=github.png>
-                    </a>
-                        
-                    <h1>Lucid</h1>
-                    <p><a href=https://devpost.com/software/lucid-eyes-for-the-visually-impaired target=_blank rel="noopener noreferrer" id=link>Top 6 Finalist at qHacks 2021 (Queen's University)</a></br></br>
-                        Lucid aims to make life easier for the blind.</br></br>
-                        It's an app whose main function is to use the phone's camera and text-to-speech to tell the user what objects are in front of them (object recognition) or what the text in front of them says (text recognition). Ex: Grocery shopping, blind people can't tell if an apple is red or green!</br></br>
-                        We also have incredible UI features built in like physical/tactile feedback on button clicks, text-to-speech to describe the activity that appears on the screen, voice command startup, speech speed customization, and many other features so that Lucid is perfectly curated for users without sight.</br></br>
-                        <strong>Lucid was built with Google Cloud's Vision API, Machine Learning Kit, Java, XML, and Android Studio!</strong>
-                    </p>
-
-                    <a href=https://www.youtube.com/watch?v=IddtCbX6l4Y target=_blank rel="noopener noreferrer">
-                        <img id=youtube src=youtube.png>
-                    </a>
-
-                    <a href=https://github.com/jasonntruong/Lucid-QHacks-2021 target=_blank rel="noopener noreferrer">
-                        <img id=github src=github.png>
-                    </a>
-
-                    <h1>Scam Guardian</h1>
-                    <p><a href=https://devpost.com/software/scam-guardian target=_blank rel="noopener noreferrer" id=link>Submission for RU Hacks 2021</a></br></br>
-                        Scam Guardian teaches non-proficient technology users how not to get scammed.</br></br>
-
-                        This is a webapp that when given one's name and email or phone number, it sends a pre-made and pre-selected phishing email/text. When the link in the message is clicked, rather than being scammed, they are redirected to the Scam Guardian website where they are taught how NOT to fall for phishers!</br></br>
-
-                        You can send these Scam Guardian messages to your loved ones - especially vulenrable elderly's with phones - so they can learn internet security through experience, as opposed to words. <br><br>
-
-                        <strong>Scam Guardian was built with HTML, CSS, JavaScript, Node.js, Python, Twilio API, and Elastic Email API!</strong>
-                    </p>
-
-                    <a href=https://www.youtube.com/watch?v=pouU7z3Me4o target=_blank rel="noopener noreferrer">
-                        <img id=youtube src=youtube.png>
-                    </a>
-
-                    <a href=https://github.com/jasonntruong/Scam-Guardian target=_blank rel="noopener noreferrer">
-                        <img id=github src=github.png>
-                    </a>
-                    
-                    <h1>Fill the Lyric</h1>
-                    <p>An online game I am still building with the goal of self-teaching myself <strong>HTML, CSS, JavaScript, and Node.js</strong></br></br>
-                        In Fill the Lyric, players are given an embedded YouTube music video and a line of lyrics - but with a catch!</br></br>
-                        There is a missing word from the prompted lyrics and the player is responsible for filling it in!</br></br>
-                        Play solo or play with your friends in custom lobbys and race to "Fill the Lyric"!
-                    </p>
-
-                    <a href=https://github.com/jasonntruong/Fill-The-Lyric target=_blank rel="noopener noreferrer">
-                        <img id=github src=github.png>
-                    </a>
-                    
-                    <a href=https://github.com/jasonntruong target=_blank rel="noopener noreferrer">
-                        <h1 id=link>More projects can be found on my gitHub!</h1>
-                    </a>
-                    
-
+                <a href=https://github.com/jasonntruong target=_blank rel="noopener noreferrer">
+                    <h1 id=link>More projects can be found on my gitHub!</h1>
                 </a>
             </div>
 
-        </body>
+        </div>
 
-    </head>
+    </body>
+
 </html>

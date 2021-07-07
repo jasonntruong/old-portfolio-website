@@ -23,26 +23,18 @@ html {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-}
-
-
-.index {
     background-image: url("portfoliobackground.png");
-}
-
-.whosjason {
-    background-image: url("whosjasonbackground.png");
-}
-
-.projects {
-    background-image: url("projectsbackground.png");
 }
 
 a {
     text-decoration: none;
 }
 
-.Title #Logo {
+p {
+    font-size: 1.6vw;
+}
+
+.redirectLinks #Logo {
     animation-name: logoLoad;
     animation-duration: 2s;
     animation-fill-mode: forwards;
@@ -53,7 +45,7 @@ a {
     text-decoration: none;
 }
 
-.Title #OtherLinks {
+.redirectLinks #OtherLinks {
     display:inline;
     margin-left: 0.5%;
     width: 3%;
@@ -61,7 +53,7 @@ a {
     border-radius: 5%;
 }
 
-.Title #OtherLinks2 {
+.redirectLinks #OtherLinks2 {
     display:inline;
     margin-left: 0.5%;
     width: 3.7%;
@@ -69,7 +61,7 @@ a {
     border-radius: 5%;
 }
 
-.Title #LogoNoAnim {
+.redirectLinks #LogoNoAnim {
     width:15%;
     background-color: #180e33;
     display:inline;
@@ -77,7 +69,7 @@ a {
     border-radius: 5%;
 }
 
-.Options h1{
+.menu h1{
     animation-name: options-close;
     animation-duration: 0.25s;
     display:inline-block;
@@ -91,7 +83,7 @@ a {
     border-radius: 1%;
 }
 
-.Options #Open {
+.menu #Open {
     background-color: rgb(24,14,51);
     animation-name: options;
     animation-duration: 0.25s;
@@ -115,6 +107,7 @@ a {
 
 .Information p {
     background-color: #ffffff80;
+    border-radius: 1%;
     font-family: 'Helvetica';
     font-size:1.2vw;
     display: inline-block;
@@ -125,28 +118,6 @@ a {
     margin-left: 3%;
 }
 
-.Information #headshot, #travel {
-    width:20%;
-    float:right;
-    padding: 1%;
-    border-radius: 5%;
-}
-
-.Information #techinterview {
-    width:30%;
-    display:inline-block;
-    padding: 1%;
-    border-radius: 5%;
-}
-
-.Information #youtube, #github {
-    width:5%;
-    display:inline-block;
-    padding: 1%;
-    padding-left:3%;
-    border-radius: 5%;
-}
-
 .Information #link {
     font-family: 'Helvetica';
     color: #1a5190;
@@ -154,15 +125,7 @@ a {
     font-size: 1.2vw;
 }
 
-.Information #travelcaption {
-    font-family: 'Helvetica';
-    color: #2c87f0;
-    font-size: 120%;
-    padding-left: 79%;
-
-}
-
-.Options h1:hover, #OtherLinks:hover, #OtherLinks2:hover {
+.menu h1:hover, #OtherLinks:hover, #OtherLinks2:hover {
     background-color: #efb03a;
     animation-name: options;
     animation-duration: 0.25s;
