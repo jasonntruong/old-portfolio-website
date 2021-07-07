@@ -30,10 +30,6 @@ a {
     text-decoration: none;
 }
 
-p {
-    font-size: 1.6vw;
-}
-
 .redirectLinks #Logo {
     animation-name: logoLoad;
     animation-duration: 2s;
@@ -109,7 +105,7 @@ p {
     background-color: #ffffff80;
     border-radius: 1%;
     font-family: 'Helvetica';
-    font-size:1.2vw;
+    font-size:1.1vw;
     display: inline-block;
     text-align: left;
     color: black;
