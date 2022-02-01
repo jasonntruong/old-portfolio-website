@@ -23,7 +23,7 @@ html {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    background-image: url("portfoliobackground.png");
+    background-image: url("images/portfoliobackground.png");
 }
 
 a {
